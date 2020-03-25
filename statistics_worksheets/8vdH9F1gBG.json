@@ -2284,17 +2284,3395 @@
           }
         ],
         "id": "pNAQfl5"
+      },
+      {
+        "type": "bivariate_header",
+        "yColumn": {
+          "name": "sex",
+          "type": "CATEGORICAL"
+        },
+        "showMosaicPlot": true,
+        "showHistogram": true,
+        "showScatterPlot": false,
+        "showFrequencyTable": true,
+        "showBoxPlot": true,
+        "showSummary": true,
+        "xColumns": [
+          {
+            "name": "school",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "address",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "famsize",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "Pstatus",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "Medu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Fedu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Mjob",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "Fjob",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "reason",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "guardian",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "traveltime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "studytime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "failures",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "schoolsup",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "famsup",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "paid",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "activities",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "nursery",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "higher",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "internet",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "romantic",
+            "type": "CATEGORICAL"
+          },
+          {
+            "name": "famrel",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "freetime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "goout",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dalc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Walc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "health",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "absences",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G1",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G3",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "cards": [
+          {
+            "type": "column_card",
+            "column": {
+              "name": "school",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "school",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "LZWzaU4"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "school",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "HXzcjJz"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "school",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "vTGwbMi"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "school",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "22Eeatj"
+              }
+            ],
+            "id": "XqCO43D"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "age",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ep3DiZ1"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "jwlDZCH"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "WtssO99"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "kdMyZFQ"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "age",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "IjylE16"
+              }
+            ],
+            "id": "EKbTUEr"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "address",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "address",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "QAeEH8r"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "address",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "pPXUOuG"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "address",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "XFLBp44"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "address",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "fU303PC"
+              }
+            ],
+            "id": "qKxTpVy"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "famsize",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsize",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hWHdABB"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsize",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "HJObO7k"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "famsize",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "fgPHxtH"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsize",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "DyeYBt7"
+              }
+            ],
+            "id": "FRmasJK"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Pstatus",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Pstatus",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ls53Ops"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Pstatus",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "gD1iZzM"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Pstatus",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "S7d7uRc"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Pstatus",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "sBK7XGV"
+              }
+            ],
+            "id": "1gWeL86"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Medu",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Medu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "cbk3V6U"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Medu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bAcTpY0"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Medu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hU4lSCg"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Medu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "BGoosTj"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Medu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "QTxRVzU"
+              }
+            ],
+            "id": "GoK4rVW"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Fedu",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fedu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "TNgjFJW"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fedu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "bE1yses"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fedu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xlKcz8Q"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Fedu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "huogRIn"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fedu",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "KbKDZGj"
+              }
+            ],
+            "id": "De97bmB"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Mjob",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Mjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "BlHmmHB"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Mjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "pL6wZ7g"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Mjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "1t0nKTE"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Mjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "YIM24mh"
+              }
+            ],
+            "id": "L11SCI8"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Fjob",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "itVuvbX"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "JWTUkkc"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Fjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hhAASM1"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Fjob",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "jOmUaWS"
+              }
+            ],
+            "id": "Mt2jfjn"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "reason",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "reason",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "0Fkj2jy"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "reason",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "B0ZUbNx"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "reason",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "fpT0TZr"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "reason",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "yAQF8m6"
+              }
+            ],
+            "id": "iEbz43I"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "guardian",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "guardian",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "fftleJk"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "guardian",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "yh5ZjTC"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "guardian",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "QvzCLip"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "guardian",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "BULkUMQ"
+              }
+            ],
+            "id": "AzXE9wT"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "traveltime",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "traveltime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "D1QUKAf"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "traveltime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "7JDapzq"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "traveltime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "1lVjc7b"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "traveltime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "DwctwUX"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "traveltime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "dgc8T2W"
+              }
+            ],
+            "id": "gpGapEH"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "studytime",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "studytime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Y9dKj05"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "studytime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "6a09iFK"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "studytime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "XpGY1oN"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "studytime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "JHNXPw3"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "studytime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "EeYrFeD"
+              }
+            ],
+            "id": "xSZIk8A"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "failures",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "failures",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "AbO1uJx"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "failures",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "L0XjpMC"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "failures",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "n6ULPSc"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "failures",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ufTOmXJ"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "failures",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Km6xI3g"
+              }
+            ],
+            "id": "rveyDe4"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "schoolsup",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "schoolsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "SgREYRc"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "schoolsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "sYwADHU"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "schoolsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "9a26kv1"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "schoolsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "o3of3bk"
+              }
+            ],
+            "id": "YmO1nHD"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "famsup",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "jucCd4r"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "a5yuga8"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "famsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "9tVDuH8"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famsup",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "SXciqgh"
+              }
+            ],
+            "id": "oHu0nOR"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "paid",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "paid",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "erCsWHx"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "paid",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "otYFqvp"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "paid",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "MysHZBb"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "paid",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "XczV3pz"
+              }
+            ],
+            "id": "epnKTRT"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "activities",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "activities",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "RBMcCfb"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "activities",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "9B4BCXf"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "activities",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "8HyVCSd"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "activities",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "vzqlJ6y"
+              }
+            ],
+            "id": "oXAnk3G"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "nursery",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "nursery",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eJEN0cM"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "nursery",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "mifLlKc"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "nursery",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "SeupYcZ"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "nursery",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "gc3vdaq"
+              }
+            ],
+            "id": "F77xl1Q"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "higher",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "higher",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "cJTxjNG"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "higher",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "GZ0PGsZ"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "higher",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "BfpBdzW"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "higher",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "HgKFkR6"
+              }
+            ],
+            "id": "xmFtsFg"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "internet",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "internet",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "uuj2paY"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "internet",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "uubbglg"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "internet",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "6IomMMq"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "internet",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "gs1HpJE"
+              }
+            ],
+            "id": "afcms93"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "romantic",
+              "type": "CATEGORICAL"
+            },
+            "cards": [
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "romantic",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "k2MQ7Oe"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "romantic",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "pqB0mCc"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "romantic",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "my2wGbh"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "romantic",
+                  "type": "CATEGORICAL"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "v4WysoT"
+              }
+            ],
+            "id": "B740HFX"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "famrel",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famrel",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ay5Ssu2"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famrel",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "5mFT2ii"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famrel",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "hapZzh6"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "famrel",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ALPgwEb"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "famrel",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "lnaypqh"
+              }
+            ],
+            "id": "YlTiIPS"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "freetime",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "freetime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "w5G9tVm"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "freetime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "uWrFPpH"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "freetime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "VSRLvCP"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "freetime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "UULLn9u"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "freetime",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "2wNZ9Ge"
+              }
+            ],
+            "id": "u6J8vCa"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "goout",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "goout",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "aYn9TE5"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "goout",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "45I5HPJ"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "goout",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ixx6GNR"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "goout",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "dL1Gv6B"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "goout",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "l3qnUFL"
+              }
+            ],
+            "id": "JZhjq3Z"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Dalc",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Dalc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eS7GdTV"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Dalc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "ugq5vcO"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Dalc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "s4TdEjv"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Dalc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "w7Xpw8g"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Dalc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xaY0HkQ"
+              }
+            ],
+            "id": "UMr4Dyt"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "Walc",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Walc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "xbzpjwQ"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Walc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "b07xiI2"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Walc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "m8tNzoW"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "Walc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "fh1x43C"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "Walc",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "53eSudq"
+              }
+            ],
+            "id": "9Zf7M24"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "health",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "health",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "OX8dw3t"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "health",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "FTlDkID"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "health",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "6EeQDZP"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "health",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "PkEIBPG"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "health",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "2DFSAZy"
+              }
+            ],
+            "id": "jSQQO4h"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "absences",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "absences",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "RCbuwgS"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "absences",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "eyIxDak"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "absences",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "vMu1m4j"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "absences",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "38qqUzE"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "absences",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Ye2Y57B"
+              }
+            ],
+            "id": "XOtMBZ3"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "G1",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G1",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "8ZPQBqy"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G1",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Ctxbpsf"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G1",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "BgYuzBK"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "G1",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "LqL86E9"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G1",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "LPj7G5o"
+              }
+            ],
+            "id": "jO6UzRZ"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "G2",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G2",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "Rhpmgx4"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G2",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "TbehOL1"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G2",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "5qHRjgu"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "G2",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "DhoGGzj"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G2",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "qeYOEyQ"
+              }
+            ],
+            "id": "WKaTNKD"
+          },
+          {
+            "type": "column_card",
+            "column": {
+              "name": "G3",
+              "type": "CONTINUOUS"
+            },
+            "cards": [
+              {
+                "type": "bivariate_box_plot",
+                "maxValues": 5,
+                "groupOthers": true,
+                "binningMode": "AUTO",
+                "customBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G3",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "rNc3E5b"
+              },
+              {
+                "type": "bivariate_histogram",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G3",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "FTgRNNv"
+              },
+              {
+                "type": "mosaic_plot",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G3",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "3iisBii"
+              },
+              {
+                "type": "bivariate_summary",
+                "confidenceLevel": 0.95,
+                "showConfidenceInterval": false,
+                "compute": {
+                  "spearman": true,
+                  "pearson": true,
+                  "totalCount": true,
+                  "covariance": true,
+                  "kendallTau": true,
+                  "mutualInformation": true,
+                  "completeCount": true
+                },
+                "xColumn": {
+                  "name": "G3",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "k9K0AJl"
+              },
+              {
+                "type": "bivariate_frequency_table",
+                "xBinningMode": "AUTO",
+                "yBinningMode": "AUTO",
+                "maxValuesX": 5,
+                "maxValuesY": 5,
+                "groupWithOthersX": true,
+                "groupWithOthersY": true,
+                "xCustomBinningBoundaries": [],
+                "yCustomBinningBoundaries": [],
+                "xColumn": {
+                  "name": "G3",
+                  "type": "CONTINUOUS"
+                },
+                "yColumn": {
+                  "name": "sex",
+                  "type": "CATEGORICAL"
+                },
+                "id": "UsZKPyt"
+              }
+            ],
+            "id": "cSXiaaQ"
+          }
+        ],
+        "id": "E0qrrF1"
       }
     ],
     "id": "xibSh1G"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585152439127
+    "lastModifiedOn": 1585155493664
   },
   "creationTag": {
     "versionNumber": 0,
