@@ -114,6 +114,8 @@
   },
   "name": "School",
   "projectStatus": "Sandbox",
+  "imgPattern": 5,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -167,6 +169,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1585147097738
   },
   "creationTag": {
     "versionNumber": 0,
