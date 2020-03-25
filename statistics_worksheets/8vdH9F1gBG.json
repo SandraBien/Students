@@ -2283,6 +2283,17 @@
             "id": "3fiIwGu"
           }
         ],
+        "splitBy": {
+          "groupingColumn": {
+            "name": "sex",
+            "type": "CATEGORICAL"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": true,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
         "id": "pNAQfl5"
       },
       {
@@ -9443,11 +9454,11 @@
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585157046594
+    "lastModifiedOn": 1585157439463
   },
   "creationTag": {
     "versionNumber": 0,
