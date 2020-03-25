@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585158243040
+    "lastModifiedOn": 1585158273350
   },
   "creationTag": {
     "versionNumber": 0,
@@ -231,6 +231,62 @@
         "mapValues": {
           "type": "string"
         }
+      },
+      {
+        "name": "explanations_schoolsup",
+        "type": "double"
+      },
+      {
+        "name": "explanations_studytime",
+        "type": "double"
+      },
+      {
+        "name": "explanations_Mjob",
+        "type": "double"
+      },
+      {
+        "name": "explanations_famsup",
+        "type": "double"
+      },
+      {
+        "name": "explanations_famsize",
+        "type": "double"
+      },
+      {
+        "name": "explanations_Medu",
+        "type": "double"
+      },
+      {
+        "name": "explanations_sex",
+        "type": "double"
+      },
+      {
+        "name": "explanations_Fedu",
+        "type": "double"
+      },
+      {
+        "name": "explanations_freetime",
+        "type": "double"
+      },
+      {
+        "name": "explanations_Walc",
+        "type": "double"
+      },
+      {
+        "name": "explanations_failures",
+        "type": "double"
+      },
+      {
+        "name": "explanations_goout",
+        "type": "double"
+      },
+      {
+        "name": "explanations_absences",
+        "type": "double"
+      },
+      {
+        "name": "explanations_Fjob",
+        "type": "double"
       }
     ],
     "userModified": true
