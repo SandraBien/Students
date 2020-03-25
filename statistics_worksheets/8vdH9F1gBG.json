@@ -9284,17 +9284,170 @@
           "type": "CONTINUOUS"
         },
         "id": "7XvOGJd"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Medu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Fedu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "traveltime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "studytime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "failures",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "famrel",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "freetime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "goout",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dalc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Walc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "health",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "absences",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G1",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G3",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "C6KRUNT"
+      },
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "columns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Medu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Fedu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "traveltime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "studytime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "failures",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "famrel",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "freetime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "goout",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dalc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Walc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "health",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "absences",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G1",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G3",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "RVDY2ID"
       }
     ],
     "id": "xibSh1G"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585156410482
+    "lastModifiedOn": 1585157046594
   },
   "creationTag": {
     "versionNumber": 0,
