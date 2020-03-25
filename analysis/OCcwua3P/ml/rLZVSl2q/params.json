@@ -792,7 +792,7 @@
   "modeling": {
     "skipExpensiveReports": false,
     "random_forest_regression": {
-      "enabled": false,
+      "enabled": true,
       "n_estimators": {
         "values": [
           100
@@ -944,7 +944,7 @@
       }
     },
     "gbt_regression": {
-      "enabled": false,
+      "enabled": true,
       "n_estimators": {
         "values": [
           100
@@ -1034,7 +1034,7 @@
       }
     },
     "decision_tree_regression": {
-      "enabled": true,
+      "enabled": false,
       "max_depth": {
         "values": [
           5
@@ -1081,7 +1081,7 @@
         "nValues": 0,
         "gridMode": "EXPLICIT"
       },
-      "enabled": true
+      "enabled": false
     },
     "lasso_regression": {
       "alphaMode": "AUTO_CV",
@@ -1332,7 +1332,7 @@
       "K": 100
     },
     "xgboost": {
-      "enabled": false,
+      "enabled": true,
       "max_depth": {
         "values": [
           3
