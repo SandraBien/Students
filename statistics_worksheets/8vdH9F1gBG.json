@@ -9268,17 +9268,33 @@
           "type": "CATEGORICAL"
         },
         "id": "Wic9bHK"
+      },
+      {
+        "type": "fit_distribution",
+        "distributions": [
+          {
+            "distribution": {
+              "type": "normal"
+            }
+          }
+        ],
+        "confidenceLevel": 0.95,
+        "column": {
+          "name": "age",
+          "type": "CONTINUOUS"
+        },
+        "id": "7XvOGJd"
       }
     ],
     "id": "xibSh1G"
   },
   "name": "Worksheet",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585155821030
+    "lastModifiedOn": 1585156410482
   },
   "creationTag": {
     "versionNumber": 0,
