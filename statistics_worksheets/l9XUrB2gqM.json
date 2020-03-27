@@ -5956,6 +5956,17 @@
             "type": "CONTINUOUS"
           }
         ],
+        "splitBy": {
+          "groupingColumn": {
+            "name": "sex",
+            "type": "CATEGORICAL"
+          },
+          "binningMode": "AUTO",
+          "maxValues": 5,
+          "groupWithOthers": true,
+          "customBinningBoundaries": [],
+          "groupWithAll": true
+        },
         "id": "P5jyBqT"
       },
       {
@@ -6039,11 +6050,11 @@
   },
   "name": "Worksheet 3",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585318697748
+    "lastModifiedOn": 1585318972683
   },
   "creationTag": {
     "versionNumber": 0,
