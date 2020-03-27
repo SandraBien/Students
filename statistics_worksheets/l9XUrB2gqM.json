@@ -5861,17 +5861,189 @@
           }
         ],
         "id": "AkzckHH"
+      },
+      {
+        "type": "ttest_2samp",
+        "value1": [
+          "F"
+        ],
+        "value2": [
+          "M"
+        ],
+        "confidenceLevel": 0.95,
+        "xColumn": {
+          "name": "age",
+          "type": "CONTINUOUS"
+        },
+        "yColumn": {
+          "name": "sex",
+          "type": "CATEGORICAL"
+        },
+        "id": "ZY239Ih"
+      },
+      {
+        "type": "correlation_matrix",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "metric": "SPEARMAN",
+        "columns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Medu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Fedu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "traveltime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "studytime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "failures",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "famrel",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "freetime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "goout",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dalc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Walc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "health",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "absences",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G1",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G3",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "P5jyBqT"
+      },
+      {
+        "type": "pca",
+        "heatmapParams": {
+          "showValues": true,
+          "showColors": true,
+          "showAbsValues": false,
+          "threshold": 0.0
+        },
+        "columns": [
+          {
+            "name": "age",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Medu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Fedu",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "traveltime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "studytime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "failures",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "famrel",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "freetime",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "goout",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Dalc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "Walc",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "health",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "absences",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G1",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G2",
+            "type": "CONTINUOUS"
+          },
+          {
+            "name": "G3",
+            "type": "CONTINUOUS"
+          }
+        ],
+        "id": "AQqvqCC"
       }
     ],
     "id": "OOk1nPF"
   },
   "name": "Worksheet 3",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585318502963
+    "lastModifiedOn": 1585318697748
   },
   "creationTag": {
     "versionNumber": 0,
