@@ -113,7 +113,7 @@
       }
     }
   },
-  "name": "School",
+  "name": "School (experiment)",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
@@ -171,11 +171,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586342758789
+    "lastModifiedOn": 1586342761480
   },
   "creationTag": {
     "versionNumber": 0,
@@ -184,7 +184,7 @@
     },
     "lastModifiedOn": 1585147068160
   },
-  "shortDesc": "The project *School* was created by Sandra Bienaymé on Mar 25th 2020",
+  "shortDesc": "The project *School* was created by Sandra Bienaymé on Mar 25th 2020\nThe project *SCHOOL_EXPERIMENT* was copied from *SCHOOL* by Sandra Bienaymé on avr. 08th 2020",
   "tags": [
     "duplicated"
   ],
