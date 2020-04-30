@@ -5,7 +5,41 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "school": 100,
+      "sex": 100,
+      "age": 100,
+      "address": 100,
+      "famsize": 100,
+      "Pstatus": 100,
+      "Medu": 100,
+      "Fedu": 100,
+      "Mjob": 99,
+      "Fjob": 100,
+      "reason": 100,
+      "guardian": 100,
+      "traveltime": 100,
+      "studytime": 100,
+      "failures": 100,
+      "schoolsup": 100,
+      "famsup": 100,
+      "paid": 100,
+      "activities": 100,
+      "nursery": 100,
+      "higher": 100,
+      "internet": 100,
+      "romantic": 100,
+      "famrel": 100,
+      "freetime": 100,
+      "goout": 100,
+      "Dalc": 100,
+      "Walc": 100,
+      "health": 100,
+      "absences": 100,
+      "G1": 100,
+      "G2": 100,
+      "G3": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -39,7 +73,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
