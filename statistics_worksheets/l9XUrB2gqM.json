@@ -29,14 +29,6 @@
     "type": "worksheet_root",
     "confidenceLevel": 0.95,
     "showConfidenceInterval": false,
-    "highlightFilter": {
-      "type": "anum",
-      "column": "school",
-      "values": [
-        "GP"
-      ],
-      "name": "school: GP"
-    },
     "cards": [
       {
         "type": "univariate_header",
@@ -191,14 +183,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "school",
                   "type": "CATEGORICAL"
@@ -261,14 +245,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "sex",
                   "type": "CATEGORICAL"
@@ -331,14 +307,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -405,14 +373,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "address",
                   "type": "CATEGORICAL"
@@ -475,14 +435,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "famsize",
                   "type": "CATEGORICAL"
@@ -545,14 +497,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "Pstatus",
                   "type": "CATEGORICAL"
@@ -615,14 +559,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -689,14 +625,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -763,14 +691,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "Mjob",
                   "type": "CATEGORICAL"
@@ -833,14 +753,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "Fjob",
                   "type": "CATEGORICAL"
@@ -903,14 +815,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "reason",
                   "type": "CATEGORICAL"
@@ -973,14 +877,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "guardian",
                   "type": "CATEGORICAL"
@@ -1043,14 +939,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -1117,14 +1005,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -1191,14 +1071,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -1265,14 +1137,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "schoolsup",
                   "type": "CATEGORICAL"
@@ -1335,14 +1199,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "famsup",
                   "type": "CATEGORICAL"
@@ -1405,14 +1261,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "paid",
                   "type": "CATEGORICAL"
@@ -1475,14 +1323,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "activities",
                   "type": "CATEGORICAL"
@@ -1545,14 +1385,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "nursery",
                   "type": "CATEGORICAL"
@@ -1615,14 +1447,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "higher",
                   "type": "CATEGORICAL"
@@ -1685,14 +1509,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "internet",
                   "type": "CATEGORICAL"
@@ -1755,14 +1571,6 @@
                 "type": "categorical_histogram",
                 "maxValues": 10,
                 "groupOthers": false,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "column": {
                   "name": "romantic",
                   "type": "CATEGORICAL"
@@ -1825,14 +1633,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -1899,14 +1699,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -1973,14 +1765,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2047,14 +1831,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2121,14 +1897,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2195,14 +1963,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2269,14 +2029,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2343,14 +2095,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2417,14 +2161,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2491,14 +2227,6 @@
                 "type": "numerical_histogram",
                 "showBoxPlot": true,
                 "showHistogram": true,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "binningMode": "AUTO",
                 "nbBins": 25,
                 "customBinningBoundaries": [],
@@ -2717,14 +2445,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -2745,14 +2465,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -2842,14 +2554,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -2870,14 +2574,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -2952,14 +2648,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "age",
                   "type": "CONTINUOUS"
@@ -2988,14 +2676,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3016,14 +2696,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3113,14 +2785,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3141,14 +2805,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3238,14 +2894,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3266,14 +2914,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3363,14 +3003,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3391,14 +3023,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3473,14 +3097,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "Medu",
                   "type": "CONTINUOUS"
@@ -3509,14 +3125,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3537,14 +3145,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3619,14 +3219,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "Fedu",
                   "type": "CONTINUOUS"
@@ -3655,14 +3247,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3683,14 +3267,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3780,14 +3356,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3808,14 +3376,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3905,14 +3465,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -3933,14 +3485,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4030,14 +3574,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4058,14 +3594,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4155,14 +3683,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4183,14 +3703,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4265,14 +3777,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "traveltime",
                   "type": "CONTINUOUS"
@@ -4301,14 +3805,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4329,14 +3825,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4411,14 +3899,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "studytime",
                   "type": "CONTINUOUS"
@@ -4447,14 +3927,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4475,14 +3947,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4557,14 +4021,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "failures",
                   "type": "CONTINUOUS"
@@ -4593,14 +4049,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4621,14 +4069,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4718,14 +4158,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4746,14 +4178,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4843,14 +4267,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4871,14 +4287,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4968,14 +4376,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -4996,14 +4396,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5093,14 +4485,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5121,14 +4505,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5218,14 +4594,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5246,14 +4614,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5343,14 +4703,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5371,14 +4723,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5468,14 +4812,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5496,14 +4832,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5593,14 +4921,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5621,14 +4941,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5703,14 +5015,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "famrel",
                   "type": "CONTINUOUS"
@@ -5739,14 +5043,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5767,14 +5063,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5849,14 +5137,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "freetime",
                   "type": "CONTINUOUS"
@@ -5885,14 +5165,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5913,14 +5185,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -5995,14 +5259,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "goout",
                   "type": "CONTINUOUS"
@@ -6031,14 +5287,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6059,14 +5307,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6141,14 +5381,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "Dalc",
                   "type": "CONTINUOUS"
@@ -6177,14 +5409,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6205,14 +5429,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6287,14 +5503,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "Walc",
                   "type": "CONTINUOUS"
@@ -6323,14 +5531,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6351,14 +5551,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6433,14 +5625,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "health",
                   "type": "CONTINUOUS"
@@ -6469,14 +5653,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6497,14 +5673,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6579,14 +5747,6 @@
               {
                 "type": "scatter_plot",
                 "symbolSize": 4,
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xColumn": {
                   "name": "absences",
                   "type": "CONTINUOUS"
@@ -6615,14 +5775,6 @@
               },
               {
                 "type": "bivariate_histogram",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6643,14 +5795,6 @@
               },
               {
                 "type": "mosaic_plot",
-                "highlightFilter": {
-                  "type": "anum",
-                  "column": "school",
-                  "values": [
-                    "GP"
-                  ],
-                  "name": "school: GP"
-                },
                 "xBinningMode": "AUTO",
                 "yBinningMode": "AUTO",
                 "maxValuesX": 5,
@@ -6906,11 +6050,11 @@
   },
   "name": "Worksheet 3",
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586247393354
+    "lastModifiedOn": 1588671896447
   },
   "creationTag": {
     "versionNumber": 0,
