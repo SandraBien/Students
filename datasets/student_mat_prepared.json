@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1590491357479
+    "lastModifiedOn": 1590491416446
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,6 +86,10 @@
   },
   "schema": {
     "columns": [
+      {
+        "name": "student_ID",
+        "type": "bigint"
+      },
       {
         "name": "school",
         "type": "string"
@@ -217,10 +221,6 @@
       },
       {
         "name": "G3",
-        "type": "bigint"
-      },
-      {
-        "name": "student_ID",
         "type": "bigint"
       }
     ],
