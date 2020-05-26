@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1585152400869
+    "lastModifiedOn": 1590491357479
   },
   "creationTag": {
     "versionNumber": 0,
@@ -217,6 +217,10 @@
       },
       {
         "name": "G3",
+        "type": "bigint"
+      },
+      {
+        "name": "student_ID",
         "type": "bigint"
       }
     ],
