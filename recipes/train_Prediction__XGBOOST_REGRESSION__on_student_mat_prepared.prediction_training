@@ -210,7 +210,7 @@
     "gridLength": 1
   },
   "partSource": "ACTIVE_VERSION",
-  "generatingModelId": "A-SCHOOL-OCcwua3P-rLZVSl2q-s2-pp3-m1",
+  "generatingModelId": "A-SCHOOL-OCcwua3P-rLZVSl2q-s3-pp3-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -697,6 +697,24 @@
         },
         "impute_constant_value": 0.0
       },
+      "student_ID": {
+        "autoReason": "REJECT_IDENTIFIER",
+        "customProcessorWantsMatrix": false,
+        "quantile_bin_nb_bins": 4,
+        "role": "REJECT",
+        "generate_derivative": false,
+        "sendToInput": "main",
+        "customHandlingCode": "",
+        "binarize_constant_threshold": 0.0,
+        "state": {
+          "autoModifiedByDSS": false,
+          "recordedMeaning": "LongMeaning",
+          "userModified": false
+        },
+        "type": "NUMERIC",
+        "impute_constant_value": 0.0,
+        "binarize_threshold_mode": "MEDIAN"
+      },
       "Medu": {
         "rescaling": "AVGSTD",
         "missing_impute_with": "MEAN",
@@ -967,6 +985,10 @@
   "expectedPreparationOutputSchema": {
     "columns": [
       {
+        "name": "student_ID",
+        "type": "bigint"
+      },
+      {
         "name": "school",
         "type": "string"
       },
@@ -1132,6 +1154,7 @@
     "kfold": false
   },
   "script": {
+    "contextProjectKey": "SCHOOL",
     "columnsSelection": {
       "mode": "ALL"
     },
