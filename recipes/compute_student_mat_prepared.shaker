@@ -29,7 +29,18 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [],
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "EnrichWithRecordContextProcessor",
+      "params": {
+        "fileRecordOutputColumn": "student_ID"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,6 +66,8 @@
     "studytime": 100,
     "romantic": 100,
     "Fjob": 100,
+    "ID": 100,
+    "row": 100,
     "guardian": 100,
     "famrel": 100,
     "absences": 100,
@@ -65,6 +78,7 @@
     "freetime": 100,
     "sex": 100,
     "health": 100,
+    "student_ID": 100,
     "Medu": 100,
     "Mjob": 100,
     "nursery": 100,
