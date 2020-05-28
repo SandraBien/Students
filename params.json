@@ -141,7 +141,6 @@
     }
   },
   "name": "School",
-  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
@@ -199,11 +198,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1586948432829
+    "lastModifiedOn": 1590660928872
   },
   "creationTag": {
     "versionNumber": 0,
@@ -213,7 +212,9 @@
     "lastModifiedOn": 1585147068160
   },
   "shortDesc": "The project *School* was created by Sandra Bienaymé on Mar 25th 2020",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_dataset_export": true,
