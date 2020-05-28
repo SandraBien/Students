@@ -140,7 +140,8 @@
       }
     }
   },
-  "name": "School (test2)",
+  "name": "School",
+  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
@@ -198,11 +199,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1590660931566
+    "lastModifiedOn": 1590661051400
   },
   "creationTag": {
     "versionNumber": 0,
@@ -211,10 +212,8 @@
     },
     "lastModifiedOn": 1585147068160
   },
-  "shortDesc": "The project *School* was created by Sandra Bienaymé on Mar 25th 2020\nThe project *SCHOOL_TEST2* was copied from *SCHOOL* by Sandra Bienaymé on mai 28th 2020",
-  "tags": [
-    "duplicated"
-  ],
+  "shortDesc": "The project *School* was created by Sandra Bienaymé on Mar 25th 2020",
+  "tags": [],
   "customFields": {
     "gdpr_forbid_dataset_sharing": false,
     "gdpr_forbid_dataset_export": true,
